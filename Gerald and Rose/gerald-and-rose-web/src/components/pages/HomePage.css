@@ -100,7 +100,7 @@ img {
 .home__service-page h1{
     max-width: 440px;
     margin-bottom: 35px;
-    color: #EDD067;
+    color: #E8C239;
     text-transform: uppercase;
 }
 
@@ -109,7 +109,7 @@ img {
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: #f8f8ff
+    color: #14304a;
 }
 
 .service-description{
@@ -123,6 +123,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #E8E8E8;
 }
 
 .service-wrap-mid{
