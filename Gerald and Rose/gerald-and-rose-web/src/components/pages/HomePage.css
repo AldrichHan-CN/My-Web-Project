@@ -98,6 +98,7 @@ img {
 }
 
 .home__service-page h1{
+    letter-spacing: 1.4px;
     max-width: 440px;
     margin-bottom: 35px;
     color: #E8C239;
@@ -107,8 +108,8 @@ img {
 .home__service-page p {
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
     color: #14304a;
 }
 
@@ -137,6 +138,7 @@ img {
 }
 
 .service-wrap-mid  h1{
+    letter-spacing: 1.4px;
     max-width: 440px;
     margin-bottom: 35px;
     color: #14304a;
@@ -145,6 +147,7 @@ img {
 
 .service-wrap-mid  p {
     font-size: 20px;
+    line-height: 26px;
     max-width: 440px;
     margin-bottom: 35px;
     color: #14304a;
