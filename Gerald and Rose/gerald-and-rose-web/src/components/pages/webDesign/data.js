@@ -1,4 +1,7 @@
 export const webObjOne = {
+    img_banner:'Images/Mirko.jpg', 
+    alt_banner:'banner',
+
     img_development:'Images/C2.jpg', 
     alt_development:'C2', 
     development_description:'We create new websites & refresh sites that have aged and need a bit of TLC and resuscitation. We work with you to define what is required; working at the depth of knowledge that you understand.',

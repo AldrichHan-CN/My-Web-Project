@@ -1,3 +1,54 @@
 .webDesign__container{
-    color: #14304a;
+    background-color: #14304a;
+    display: column;
+    padding-top: 1.5rem;
+    justify-content: left;
+}
+
+.webDesign__banner-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.webDesign__banner{
+    max-width: 10rem;
+}
+
+.webDesign__banner-text-wrapper{
+    display: column;
+}
+
+.webDesign__banner-text-wrapper h1 {
+    color: #f8f8ff;
+}
+
+.webDesign__banner-text-wrapper >p {
+    flex-wrap: wrap;
+    color:#EDD067
+    
+}
+
+.webDesign__col{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.webDesign__web-text-wrapper{
+    max-width: 30%;
+}
+
+.webDesign__web-img-wrapper{
+    max-width: 10rem;
+    vertical-align: middle;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.description{
+    font-size: 24px;
+    color: #EDD067;
 }
