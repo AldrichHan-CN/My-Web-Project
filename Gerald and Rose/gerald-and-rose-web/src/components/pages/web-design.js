@@ -2,7 +2,7 @@ import React from 'react';
 import './web-design.css';
 
 
-function webDevp ({
+function Devp ({
     img_development, alt_development, development_description,
     img_performance, alt_performance, web_performance_description, 
     img_maintenance, alt_maintenance, web_maintenance_description})
@@ -50,4 +50,4 @@ function webDevp ({
 
     )
 }
-export default webDevp
+export default Devp
