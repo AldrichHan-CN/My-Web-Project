@@ -1,5 +1,7 @@
 import React from 'react';
 import './web-design.css';
+import {Carousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 function Devp ({
@@ -11,16 +13,15 @@ function Devp ({
     return (
       
            <div className='webDesign__container'>
-               <div className='webDesign__banner-container'>
-                <div className='webDesign__banner'>
-                <img src={img_banner} alt={alt_banner} className='web__web-banner'/>
-                </div>
+               <div className='webDesign__banner-container'> 
                <div className='webDesign__banner-text-wrapper'>
                    <h1>Website Development, Management and Maintenance</h1>
                    <p>We create a modern digital presence through a great website. 
                        We create, manage and maintain websites. We keep it simple. 
                        Depending on where you are we can provide the right service for you.</p>
                </div>
+                <div className='webDesign__banner'>
+                </div>
                </div>
             <div className='webDesign__col'>
                 <div className='webDesign__web-text-wrapper'>
@@ -28,7 +29,17 @@ function Devp ({
                         <div className='description'>{development_description}</div>
                     </div> 
                     <div className='webDesign__web-img-wrapper'>
-                        <img src={img_development} alt={alt_development} className='web__web-img'/>
+            <Carousel axis='horizontal' autoPlay='true'>
+                <div>
+                <img src='Images/backgroundImage/webBG2.jpg' alt='bg-1' className='web__web-img'/>
+                </div>
+                <div>
+                <img src='Images/backgroundImage/webBG.jpg' alt='bg-2' className='web__web-img'/>
+                </div>
+                <div>
+                <img src='Images/backgroundImage/business.jpg'alt='bg-3' className='web__web-img'/>
+                </div>
+            </Carousel>
                     </div>
                 </div>
             <div className='webDesign__col'>

@@ -1,31 +1,41 @@
 .webDesign__container{
     background-color: #14304a;
     display: column;
-    padding-top: 1.5rem;
     justify-content: left;
 }
 
 .webDesign__banner-container{
+    padding: 15px;
+    padding-bottom: 16px;
     display:flex;
     justify-content: space-around;
 }
+
 
 .webDesign__banner{
     max-width: 10rem;
 }
 
 .webDesign__banner-text-wrapper{
+    max-width: 555px;
     display: column;
 }
 
 .webDesign__banner-text-wrapper h1 {
     color: #f8f8ff;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
 }
 
 .webDesign__banner-text-wrapper >p {
     flex-wrap: wrap;
-    color:#EDD067
-    
+    color:#EDD067;
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;   
 }
 
 .webDesign__col{
@@ -40,8 +50,9 @@
 }
 
 .webDesign__web-img-wrapper{
-    max-width: 10rem;
-    vertical-align: middle;
+    padding-right: 0;
+    margin: 0 0 0 10px;
+    max-width: 555px;
 }
 
 .heading{
