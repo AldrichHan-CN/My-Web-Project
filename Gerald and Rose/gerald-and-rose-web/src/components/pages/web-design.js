@@ -1,12 +1,12 @@
 import React from 'react';
-import './webDesign.css';
+import './web-design.css';
 
 
-function webDesign ({
+function webDevp ({
     img_development, alt_development, development_description,
     img_performance, alt_performance, web_performance_description, 
     img_maintenance, alt_maintenance, web_maintenance_description})
-    { 
+{
     return (
       
            <div className='webDesign__container'>
@@ -18,7 +18,7 @@ function webDesign ({
                        Depending on where you are we can provide the right service for you.</p>
                </div>
                </div>
-                <div className='webDesign__col'>
+            <div className='webDesign__col'>
                 <div className='webDesign__web-text-wrapper'>
                         <div className='heading'><h1>development</h1></div>
                         <div className='description-1'>{development_description}</div>
@@ -27,7 +27,7 @@ function webDesign ({
                         <img src={img_development} alt={alt_development} className='web__web-img'/>
                     </div>
                 </div>
-                <div className='webDesign__col'>
+            <div className='webDesign__col'>
                     <div className='webDesign__web-img-wrapper'>
                         <img src={img_performance} alt={alt_performance} className='web__web-img-performance'/>
                     </div>
@@ -36,7 +36,7 @@ function webDesign ({
                         <div className='description'>{web_performance_description}</div>
                     </div> 
                 </div>
-                <div className='webDesign__col'>
+            <div className='webDesign__col'>
                     <div className='webDesign__web-img-wrapper'>
                         <img src={img_maintenance} alt={alt_maintenance} className='web__web-img-maintenance'/>
                     </div>
@@ -45,9 +45,9 @@ function webDesign ({
                         <div className='description'>{web_maintenance_description}</div>
                     </div> 
                 </div>
+              
            </div>
 
     )
 }
-
-export default webDesign
+export default webDevp

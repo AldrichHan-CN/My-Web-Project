@@ -1,15 +1,11 @@
 import React from 'react'
-import { webObjOne } from './Data'
-import webDesign from '../webDesign'
+import webDevp from '../web-design'
+import {webObjOne} from './Data';
 
 function web() {
     return (
-        <div>
-            <>
-            <webDesign {...webObjOne} />
-            </>
-        </div>
-    )
-}
-
-export default web
+<>
+          <webDevp {...webObjOne} />
+</>
+    )}
+    export default web
