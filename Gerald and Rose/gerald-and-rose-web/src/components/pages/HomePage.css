@@ -68,6 +68,9 @@
 
 .home__home-img-wrapper {
     max-width: 555px;
+    animation: fadeInAnimation ease-in 0.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode:forwards; 
 }
 
 .home__home-img{
@@ -183,3 +186,12 @@ img {
         flex-direction: column；
 }
 }
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 

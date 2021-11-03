@@ -2,21 +2,32 @@
     background-color: #14304a;
     display: column;
     justify-content: left;
+
 }
 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 .webDesign__banner-container{
+    background-image: url(/src/components/CSSbg/webBG.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
     padding: 15px;
     padding-bottom: 16px;
     display:flex;
-    justify-content: space-around;
-}
-
-
-.webDesign__banner{
-    max-width: 10rem;
+    justify-content: flex-start;
 }
 
 .webDesign__banner-text-wrapper{
+    background: rgba(0,0,0,0.4);
+    padding-left: 40px;
+    margin-right: inherit;
     max-width: 555px;
     display: column;
 }
@@ -27,6 +38,9 @@
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
+    animation: fadeInAnimation ease 2s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
 
 .webDesign__banner-text-wrapper >p {
@@ -35,7 +49,10 @@
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
-    line-height: 24px;   
+    line-height: 24px;
+    animation: fadeInAnimation ease 2s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;    
 }
 
 .webDesign__col{
@@ -43,7 +60,12 @@
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+    animation: fadeInAnimation ease 2s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;   
 }
+
+
 
 .webDesign__web-text-wrapper{
     max-width: 30%;
@@ -63,3 +85,5 @@
     font-size: 24px;
     color: #EDD067;
 }
+
+/*screen modify*/
