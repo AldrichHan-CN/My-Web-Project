@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Services from '../businessService'
+import {bsObjOne} from './Data';
 
-function businessService() {
+function BS() {
     return (
-        <div>
-            
-        </div>
+<>
+          <Services {...bsObjOne} />
+</>
     )
 }
 
-export default businessService
+export default BS

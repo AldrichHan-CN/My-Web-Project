@@ -4,17 +4,17 @@ import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-function Devp ({development_description,web_performance_description, web_maintenance_description})
+function Devp ({bannerTitle, bannerSubtitle,
+    development_description,web_performance_description, web_maintenance_description,
+    slider_1, silder_2 ,alt_1, alt_2})
 {
     return (
       
            <div className='webDesign__container'>
                <div className='webDesign__banner-container'>
                <div className='bannerContent webDesign__banner-text-wrapper'>
-                   <h1>Website Development, Management and Maintenance</h1>
-                   <p>We create a modern digital presence through a great website. 
-                       We create, manage and maintain websites. We keep it simple. 
-                       Depending on where you are we can provide the right service for you.</p>
+                   <h1>{bannerTitle}</h1>
+                   <p>{bannerSubtitle}</p>
                </div>
                </div>
             <div className='webDesign__col'>
@@ -26,10 +26,10 @@ function Devp ({development_description,web_performance_description, web_mainten
             <Carousel axis='horizontal' autoPlay='true' infiniteLoop="true" showStatus='false' showIndicators='false' 
             showArrows="false" showThumbs="false" transitionTime='500'>
                 <div>
-                <img src='Images/backgroundImage/webBG.jpg' alt='bg-2' className='web__web-img'/>
+                <img src={slider_1} alt={alt_1} className='web__web-img'/>
                 </div>
                 <div>
-                <img src='Images/backgroundImage/business.jpg'alt='bg-3' className='web__web-img'/>
+                <img src={silder_2} alt={alt_2} className='web__web-img'/>
                 </div>
             </Carousel>
                     </div>
@@ -39,12 +39,12 @@ function Devp ({development_description,web_performance_description, web_mainten
                     <Carousel axis='horizontal' autoPlay='true' infiniteLoop="true" showStatus='false' showIndicators='false' 
             showArrows="false" showThumbs="false" transitionTime='500'>
                 <div>
-                <img src='Images/backgroundImage/webBG.jpg' alt='bg-2' className='web__web-img'/>
+                <img src={slider_1} alt={alt_1} className='web__web-img'/>
                 </div>
                 <div>
-                <img src='Images/backgroundImage/business.jpg'alt='bg-3' className='web__web-img'/>
+                <img src={silder_2} alt={alt_2} className='web__web-img'/>
                 </div>
-                    </Carousel>
+            </Carousel>
                     </div>
                     <div className='webDesign__web-text-wrapper mid'>
                         <div className='heading'><h1>Web Performance</h1></div>
@@ -60,10 +60,10 @@ function Devp ({development_description,web_performance_description, web_mainten
                     <Carousel axis='horizontal' autoPlay='true' infiniteLoop="true" showStatus='false' showIndicators='false' 
             showArrows="false" showThumbs="false" transitionTime='500'>
                 <div>
-                <img src='Images/backgroundImage/webBG.jpg' alt='bg-2' className='web__web-img'/>
+                <img src={slider_1} alt={alt_1} className='web__web-img'/>
                 </div>
                 <div>
-                <img src='Images/backgroundImage/business.jpg'alt='bg-3' className='web__web-img'/>
+                <img src={silder_2} alt={alt_2} className='web__web-img'/>
                 </div>
             </Carousel>
                     </div>

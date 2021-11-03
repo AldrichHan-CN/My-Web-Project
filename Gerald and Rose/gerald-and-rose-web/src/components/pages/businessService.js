@@ -1,14 +1,17 @@
 import React from 'react'
 
-function businessService() {
+function Services({bsTitle, bsSubtitle, bsBanner, bsBanneralt}) {
     return (
         <div className='bs-container'>
             <div className='bs-banner-container'>
                 <div className='bs-banner-title'>
+                    <h1>{bsTitle}</h1>
                 </div>
                 <div className='bs-banner-subtitle'>
+                    <p>{bsSubtitle}</p>
                 </div>
                 <div className='bs-banner-logo'>
+                    <img src={bsBanner} alt={bsBanneralt} />
                 </div>
             </div>
             <div className='service-container'>
@@ -49,4 +52,4 @@ function businessService() {
     )
 }
 
-export default businessService
+export default Services

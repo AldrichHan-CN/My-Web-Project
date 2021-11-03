@@ -34,6 +34,7 @@
 
 .webDesign__banner-text-wrapper h1 {
     color: #f8f8ff;
+    padding-top:20px;
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -48,8 +49,10 @@
     color:#EDD067;
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
+    padding-top: 50px;
+    /* animation effect */
     animation: fadeInAnimation ease 2s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;    
@@ -69,12 +72,15 @@
 
 .webDesign__web-text-wrapper{
     max-width: 30%;
+    padding: 10px;
 }
 
 .webDesign__web-img-wrapper{
     padding-right: 0;
+    padding-top: 15px;
     margin: 0 0 0 10px;
     max-width: 555px;
+    padding-bottom: 15px;
 }
 
 .heading{
@@ -87,3 +93,27 @@
 }
 
 /*screen modify*/
+
+@media screen and (max-width:991px){
+    .container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .webDesign__col{
+        padding: 10px;
+        max-width: 100%;
+        flex-basis: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .webDesign__web-text-wrapper{
+        max-width: 100%;
+    }
+
+}
