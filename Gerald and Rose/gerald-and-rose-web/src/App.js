@@ -6,8 +6,9 @@ import Home from './components/pages/HomePage/Home';
 import Navbar from './components/pages/Navbar';
 import Footer from './components/footer/footer';
 import web from './components/pages/webDesign/webDesign';
-import BS from './components/pages/businessService/businessService';
-
+import bussinessService from './components/pages/businessService/businessService';
+import aboutus from './components/pages/aboutUs/aboutUs'
+import BlogPost from './components/pages/post/post'
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/web-design' exact component={web}/>
-        <Route path='/businessService' exact component={BS}/>
+        <Route path='/businessService' exact component={bussinessService}/>
+        <Route path='/aboutUs' exact component={aboutus}/>
+        <Route path='/post' exact component={BlogPost}/>
       </Switch>
       <Footer />
     </Router>

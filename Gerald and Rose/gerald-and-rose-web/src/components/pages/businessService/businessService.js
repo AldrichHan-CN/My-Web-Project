@@ -2,7 +2,7 @@ import React from 'react';
 import Services from '../businessService'
 import {bsObjOne} from './Data';
 
-function BS() {
+function bussinessService() {
     return (
 <>
           <Services {...bsObjOne} />
@@ -10,4 +10,4 @@ function BS() {
     )
 }
 
-export default BS
+export default bussinessService
