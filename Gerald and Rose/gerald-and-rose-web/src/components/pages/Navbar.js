@@ -86,12 +86,12 @@ function Navbar() {
               </li>
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/contact-us' className='btn-link'>
+                  <Link to='/contact-form' className='btn-link'>
                     <Button buttonStyle='btn--outline'>Book a Consultation
                     </Button>
                   </Link>
                 ) : (
-                  <Link to='/contact-us' className='btn-link'>
+                  <Link to='/contact-form' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'

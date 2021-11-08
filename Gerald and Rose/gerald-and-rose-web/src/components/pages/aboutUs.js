@@ -18,12 +18,18 @@ function Introduction(
         <div className='founders'>
                 <div className='founders_info'>
                     <div className='David'>
+                        <div className='founder-photo'>
                         <img src={David_photo} alt={David_alt} className='founders_img' />
+                        <p>David</p>
+                        </div>
                         <div classname='founders_intro'>{David_intro}</div>
                     </div>
                     <div className='Colan'>
                         <div classname='founders_intro'>{Colan_intro}</div>
+                        <div className='founder-photo'>
                         <img src={Colan_photo} alt={Colan_alt} className='founders_img' />
+                        <p>Colan</p>
+                        </div>
                     </div>
                 </div>
                 <div className='founders_title'><h2>Founders</h2></div>

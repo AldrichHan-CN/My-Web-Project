@@ -9,6 +9,7 @@ import web from './components/pages/webDesign/webDesign';
 import bussinessService from './components/pages/businessService/businessService';
 import aboutus from './components/pages/aboutUs/aboutUs'
 import BlogPost from './components/pages/post/post'
+import Form from './components/pages/ContactForm/contactForm'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/businessService' exact component={bussinessService}/>
         <Route path='/aboutUs' exact component={aboutus}/>
         <Route path='/post' exact component={BlogPost}/>
+        <Route path='/contact-form' exact component={Form}/>
       </Switch>
       <Footer />
     </Router>

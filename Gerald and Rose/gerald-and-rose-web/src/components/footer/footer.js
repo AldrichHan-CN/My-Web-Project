@@ -26,7 +26,7 @@ function Footer() {
         Let us know what you want and we’ll do our best to help. 
         </p>
         <div className='input-areas'>
-            <Button buttonStyle='btn--outline'>Contact Us</Button>
+            <Button buttonStyle='btn--outline' onClick='/contact-form'>Contact Us</Button>
         </div>
       </div>
       <div className='footer-links'>

@@ -11,6 +11,7 @@ function Services({
     return (
     
         <>
+        <main>
         <div className='banner'>
             <div className='bs-banner-title'>
                 <h1>{bsTitle}</h1>
@@ -22,7 +23,7 @@ function Services({
                 <img src={bsBanner} alt={bsBanneralt} />
             </div>
         </div>
-        <div className='service-wrapper'>
+        <section>
                 <div className='marketing'>
                     <div className='service-heading'>
                         <h2>Marketing Advisory</h2>
@@ -34,6 +35,8 @@ function Services({
                         <p>{mkt_description}</p>
                     </div>
                 </div>
+        </section>
+        <section>
                 <div className='business'>
                     <div className='service-heading'>
                         <h2>Business Consultancy</h2>
@@ -45,6 +48,8 @@ function Services({
                         <p>{con_description}</p>
                     </div>
                 </div>
+        </section>
+        <section>
                 <div className='graph'>
                     <div className='service-heading'>
                         <h2>Graph Design</h2>
@@ -56,6 +61,8 @@ function Services({
                         <p>{gd_description}</p>
                     </div>
                 </div>
+        </section>
+        <section>
                 <div className='campaign'>
                     <div className='service-heading'>
                         <h2>Campaign Management</h2>
@@ -67,7 +74,8 @@ function Services({
                         <p>{com_description}</p>
                     </div>
                 </div>
-        </div>
+        </section>
+        </main>
             </>                         
     )
 }
