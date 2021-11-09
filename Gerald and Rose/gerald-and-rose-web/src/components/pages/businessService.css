@@ -5,20 +5,52 @@
     scroll-snap-type: y mandatory;
   }
 
-.banner{
+.banner-bs{
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
-  background-image: url(/src/components/CSSbg/business.jpg);
+  display: flex;
+  z-index: 0;
+}
+
+.banner-bs::after{
+  content: '';
+  position:fixed;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background-image: url(/src/components/CSSbg/pexels-1563356.jpg);
   background-size: cover;
   background-attachment:local; 
+  z-index: -1;
+}
+
+.bs-banner-text{
+  max-width: 540px;
+  padding: 20px 0 20px 30px;
+}
+
+.bs-banner-title{
+  margin: 24px 0 24px 0;
+  font-size: 44px;
+  line-height: 1.1;
+  font-weight: 600;
+  color:#f8f8ff;
+}
+
+.bs-banner-subtitle{
+  color: #EDD067;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .service{
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
-  background-image: url(/src/components/CSSbg/webBG.jpg);
+  background-image: url(/src/components/CSSbg/pexels-33109.jpg);
   background-size: cover;
   background-attachment: local; 
 }

@@ -12,15 +12,17 @@ function Services({
     
         <>
         <div className='business-container'>
-        <div className='banner'>
+        <div className='banner-bs'>
+        <div className='bs-banner-logo'>
+                <img src={bsBanner} alt={bsBanneralt} />
+            </div>
+            <div className='bs-banner-text'>
             <div className='bs-banner-title'>
                 <h1>{bsTitle}</h1>
             </div>
             <div className='bs-banner-subtitle'>
                 <p>{bsSubtitle}</p>
             </div>
-            <div className='bs-banner-logo'>
-                <img src={bsBanner} alt={bsBanneralt} />
             </div>
         </div>
 
