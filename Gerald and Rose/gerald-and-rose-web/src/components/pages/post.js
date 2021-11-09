@@ -11,10 +11,12 @@ function Blogpost({post_description, please_note}) {
                 <div className='please-note'>{please_note}</div>
             </div>
             <div className='post_list'>
+
             </div>
         </div>
         </>
     )
 }
+
 
 export default Blogpost
