@@ -1,10 +1,24 @@
-section {
-    width: 100vw;
-    height: 100vh;
-    scroll-snap-align: start;
-  }
-main {
+
+.business-container {
     overflow: scroll;
     height: 100vh;
     scroll-snap-type: y mandatory;
   }
+
+.banner{
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  background-image: url(/src/components/CSSbg/business.jpg);
+  background-size: cover;
+  background-attachment:local; 
+}
+
+.service{
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  background-image: url(/src/components/CSSbg/webBG.jpg);
+  background-size: cover;
+  background-attachment: local; 
+}

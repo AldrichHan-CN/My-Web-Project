@@ -11,7 +11,7 @@ function Introduction(
 
             <>
             <div className='bannerSection'>
-            <div className='banner'><h1>About Us</h1></div>
+            <div className='banner-aboutUs'><h1>About Us</h1></div>
             <div classname='banner-intro_title'>{banner_intro_title}</div>
             <div className='banner_intro'>{banner_intro}</div>
         </div>
