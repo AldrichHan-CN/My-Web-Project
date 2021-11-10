@@ -10,38 +10,47 @@ function Introduction(
     return (
 
             <>
-            <div className='bannerSection'>
-            <div className='banner-aboutUs'><h1>About Us</h1></div>
-            <div classname='banner-intro_title'>{banner_intro_title}</div>
-            <div className='banner_intro'>{banner_intro}</div>
+<div className='intro-container'>
+
+        <div className='intro-Section'>
+            <div className='intro-Section-banner'>
+            <h1>About Us</h1>
+            <h3>{banner_intro_title}</h3>
+            <h4>{banner_intro}</h4>
+            </div>
         </div>
-        <div className='founders'>
-                <div className='founders_info'>
-                    <div className='David'>
-                        <div className='founder-photo'>
+
+        <div className='intro-Section'>
+                <div className='intro-founders-info'>
+                <h2>Founders</h2>
+                    <div className='intro-David'>
+                        <div className='intro-founder-photo'>
                         <img src={David_photo} alt={David_alt} className='founders_img' />
                         <p>David</p>
                         </div>
-                        <div classname='founders_intro'>{David_intro}</div>
+                        <div classname='intro-founders-intro'>{David_intro}</div>
                     </div>
-                    <div className='Colan'>
-                        <div classname='founders_intro'>{Colan_intro}</div>
-                        <div className='founder-photo'>
+                    <div className='intro-Colan'>
+                        <div classname='intro-founders-intro'>{Colan_intro}</div>
+                        <div className='intro-founder-photo'>
                         <img src={Colan_photo} alt={Colan_alt} className='founders_img' />
                         <p>Colan</p>
                         </div>
                     </div>
                 </div>
-                <div className='founders_title'><h2>Founders</h2></div>
         </div>
-        <div className='dude'>
-                <div className='dude_title'><h2>Dude</h2></div>
-                <div className='logo_info'>
+
+        <div className='intro-Section'>
+                <div className='intro-dude-title'><h2>Dude</h2></div>
+                <div className='intro-logo-info'>
                     <img src={logo} alt={logo_alt} className='logo' />
-                    <div className='logo_intro'>{logo_intro}</div>
+                    <div className='intro-logo-intro'>{logo_intro}</div>
                 </div>           
-        </div><div className='value'>
-                <div className='value_description'>
+        </div>
+        
+        <div className='intro-Section'>
+                <div className='intro-value-description'>
+                <h2>Our Value</h2>
                     <ul>
                         <li>Professionalism for all to see</li>
                         <li>Respecting the Client</li>
@@ -50,8 +59,10 @@ function Introduction(
                         <li>vice leads to business success</li>
                     </ul>
                 </div>
-                <div className='value_title'><h2>Our Value</h2></div>
-            </div></>
+        </div>
+
+</div>
+            </>
 
     )
 }

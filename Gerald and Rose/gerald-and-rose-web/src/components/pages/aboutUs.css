@@ -1,3 +1,64 @@
+.intro-container {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+  }
+
+.intro-Section{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    background-image: url(/src/components/CSSbg/pexels-1563356.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-Section-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.4);
+    max-width: 53%;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+}
+
+.intro-Section-banner h1{
+    margin: 24px 0 24px 0;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+    color:#f8f8ff;
+}
+
+
+.intro-Section-banner h3{
+    color: #EDD067;
+    font-size: 25px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.intro-Section-banner h4{
+    color:#f8f8ff;
+    font-size: 25px;
+}
+
+.intro-Section h2{
+    margin: 24px 0 24px 0;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+    color:#f8f8ff;
+}
 
 .logo{
     max-width: 555px;

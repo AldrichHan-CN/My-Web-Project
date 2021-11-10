@@ -1,127 +1,109 @@
 
 .business-container {
-    overflow: scroll;
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-  }
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
 
 .banner-bs{
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-align: start;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(/src/components/CSSbg/pexels-1563356.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+width: 100vw;
+height: 100vh;
+scroll-snap-align: start;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(/src/components/CSSbg/pexels-1563356.jpg);
+background-attachment: fixed;
+background-size: cover;
 }
 
 .banner-bs-container{
-  display: flex;
-  border-bottom: #f8f8ff 5px solid;
-  background: rgba(0,0,0,0.2);
-  animation: fadeInAnimation ease 2s; 
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards
+display: flex;
+border-bottom: #f8f8ff 5px solid;
+background: rgba(0,0,0,0.2);
+animation: fadeInAnimation ease 2s; 
+animation-iteration-count: 1; 
+animation-fill-mode: forwards
 }
 
 
 .bs-banner-logo{
-  max-width: 540px;
-  padding:0 20px 0 20px;
+max-width: 540px;
+padding:0 20px 0 20px;
 }
 
 .bs-banner-text{
-  max-width: 540px;
-  padding: 20px 0 20px 30px;
+max-width: 540px;
+padding: 20px 0 20px 30px;
 }
 
 .bs-banner-title{
-  margin: 24px 0 24px 0;
-  font-size: 44px;
-  line-height: 1.1;
-  font-weight: 600;
-  color:#f8f8ff;
+margin: 24px 0 24px 0;
+font-size: 44px;
+line-height: 1.1;
+font-weight: 600;
+color:#f8f8ff;
 }
 
 .bs-banner-subtitle{
-    color: #EDD067;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.service{
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-align: start;
-  background-size: cover;
-  background-attachment: local;
-  background-image: url('/src/components/CSSbg/pexels-bg.jpg'); 
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.service-text{
-  display: column;
-  max-width: 50%;
-  background: rgba(0,0,0,0.4);
-  animation: fadeInAnimation ease 2s; 
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards;
-  padding: 15px 30px 15px 30px;
-}
-
-.service-heading{
-  font-size: 60px;
-  line-height: 1.1;
-  font-weight: 600;
-  color:#f8f8ff;
+  color: #EDD067;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
-.service-img{
-  padding:0 20px 0 20px;
-  max-height: 70%;
-  max-width: 50%;
+.bs-service{
+width: 100vw;
+height: 100vh;
+scroll-snap-align: start;
+background-size: cover;
+background-attachment: local;
+background-image: url('/src/components/CSSbg/pexels-bg.jpg'); 
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 
-.service-description{
-  color: #EDD067;
-  font-size: 50px;
-  font-weight: 300;
+.bs-service-text{
+display: column;
+max-width: 30%;
+background: rgba(0,0,0,0.4);
+animation: fadeInAnimation ease 2s; 
+animation-iteration-count: 1; 
+animation-fill-mode: forwards;
+padding: 15px 30px 15px 30px;
+}
+
+.bs-service-heading{
+font-size: 30px;
+line-height: 1.1;
+font-weight: 600;
+color:#f8f8ff;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+}
+
+.bs-service-img{
+padding:0 20px 0 20px;
+max-height: 70%;
+max-width: 50%;
+}
+
+.bs-service-description{
+color: #EDD067;
+font-size: 30px;
+font-weight: 100;
 }
 
 /*animation*/
 @keyframes fadeInAnimation { 
-  0% { 
-      opacity: 0; 
-  } 
-  100% { 
-      opacity: 1; 
-  } 
-}
-
-/*screen justify*/
-@media screen and (max-width:991px){
-  .business-container{
-      padding-right: 30px;
-      padding-left: 30px;
-  }
-}
-
-@media screen and (max-width:768px){
-
-  .service{
-      max-width: 100%;
-      flex-basis: 100%;
-      flex-direction:column;
-  }
-
+0% { 
+    opacity: 0; 
+} 
+100% { 
+    opacity: 1; 
+} 
 }

@@ -47,7 +47,7 @@ function HomePage ({
                <div className='service-description'>
                <h1>Graphic Design and Social Media</h1>
                    <p>We make things pretty, it’s as simple as that. Social Media and design do go hand in hand and we provide both. 
-                       We can start from scratch or work with what you have to improve your interaction with your current and potential clients.</p>
+                    We can start from scratch or work with what you have to improve your interaction with your current and potential clients.</p>
                </div>
                <img className='service-img' alt='web_development' src='./Images/c2.jpg'/>
                </div>
