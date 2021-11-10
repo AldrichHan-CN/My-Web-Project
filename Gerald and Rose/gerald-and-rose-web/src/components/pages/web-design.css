@@ -4,6 +4,8 @@
     justify-content: left;
 }
 
+/*fade-in-animation*/
+
 @keyframes fadeInAnimation { 
     0% { 
         opacity: 0; 
@@ -11,6 +13,7 @@
     100% { 
         opacity: 1; 
     } 
+
 } 
 .webDesign__banner-container{
     background-image: url(/src/components/CSSbg/webBG.jpg);

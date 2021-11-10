@@ -12,7 +12,9 @@ function Services({
     
         <>
         <div className='business-container'>
-        <div className='banner-bs'>
+
+                <div className='banner-bs'>
+                    <div className='banner-bs-container'>
         <div className='bs-banner-logo'>
                 <img src={bsBanner} alt={bsBanneralt} />
             </div>
@@ -24,56 +26,65 @@ function Services({
                 <p>{bsSubtitle}</p>
             </div>
             </div>
-        </div>
+            </div>
+                </div>
 
                 <div className='service'>
+                    <div className='service-text'>
                     <div className='service-heading'>
                         <h2>Marketing Advisory</h2>
-                    </div>
-                    <div className='service-img'>
-                        <img src={mkt_img} alt={mkt_alt} />
                     </div>
                     <div className='service-description'>
                         <p>{mkt_description}</p>
                     </div>
+                    </div>
+                    <div className='service-img'>
+                        <img src={mkt_img} alt={mkt_alt} />
+                    </div>
                 </div>
 
                 <div className='service'>
+                <div className='service-img'>
+                        <img src={con_img} alt={con_alt} />
+                    </div>
+                    <div className='service-text'>
                     <div className='service-heading'>
                         <h2>Business Consultancy</h2>
-                    </div>
-                    <div className='service-img'>
-                        <img src={con_img} alt={con_alt} />
                     </div>
                     <div className='service-description'>
                         <p>{con_description}</p>
                     </div>
+                    </div>
                 </div>
 
                 <div className='service'>
-                    <div className='service-heading'>
-                        <h2>Graph Design</h2>
-                    </div>
                     <div className='service-img'>
                         <img src={gd_img} alt={gd_alt} />
+                    </div>
+                    <div className='service-text'>
+                    <div className='service-heading'>
+                        <h2>Graph Design</h2>
                     </div>
                     <div className='service-description'>
                         <p>{gd_description}</p>
                     </div>
+                    </div>
                 </div>
 
                 <div className='service'>
+                    <div className='service-text'>
                     <div className='service-heading'>
                         <h2>Campaign Management</h2>
-                    </div>
-                    <div className='service-img'>
-                        <img src={com_img} alt={com_alt} />
                     </div>
                     <div className='service-description'>
                         <p>{com_description}</p>
                     </div>
+                    </div>
+                    <div className='service-img'>
+                        <img src={com_img} alt={com_alt} />
+                    </div>
                 </div>
-                </div>
+        </div>
             </>                         
     )
 }
