@@ -5,10 +5,10 @@ function Blogpost({post_description, please_note}) {
     return (
         <>
         <div className='post-container'>
-            <div className='post_banner'>
+            <div className='post-banner'>
                 <h1>What's new?</h1>
                 <p>{post_description}</p>
-                <div className='please-note'>{please_note}</div>
+            <div className='please-note'>{please_note}</div>
             </div>
             <div className='post_list'>
 

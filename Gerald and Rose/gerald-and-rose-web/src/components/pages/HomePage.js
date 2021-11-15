@@ -6,14 +6,18 @@ import './HomePage.css';
 
 function HomePage ({
     lightBg, topLine, lightText, lightTextDesc, headline, description,
-    buttonLabel, img, alt, imgStart})
+    buttonLabel, img, alt, imgStart,
+    graph_design_title,graph_design_intro,
+    website_development_title, website_development_intro,
+    marketing_service_title, marketing_service_intro,
+})
     {   
     return (
-        
+        <div className='home-container'>
         <div className={lightBg ? 
         'home__Home-page': 'home__home-page darkBg'}>
            <div className='container'>
-               <div className='row home__home-row' style={{display:'flex',
+            <div className='row home__home-row' style={{display:'flex',
             flexDirection: imgStart==='start' ? 'row-reverse' : 'row'}}>
                 <div className='col'>
                     <div className='home__home-text-wrapper'>
@@ -33,21 +37,18 @@ function HomePage ({
                 </div>
                </div>
            </div>
-           <div className='home__service-page'>
                <div className='service-wrap'>
                <img className='service-img' alt='web_development' src='./Images/c2.jpg'/>
                <div className='service-description'>
-                   <h1>Website Development, Management and Maintenance</h1>
-                   <p>We create a modern digital presence through a great website. We create, manage and maintain websites. 
-                    We keep it simple. Depending on where you are we can provide the right service for you.</p>
+                   <h1>{website_development_title}</h1>
+                   <p>{website_development_intro}</p>
                </div>
                
                </div>
-               <div className='service-wrap-mid'>
+               <div className='service-wrap'>
                <div className='service-description'>
-               <h1>Graphic Design and Social Media</h1>
-                   <p>We make things pretty, it’s as simple as that. Social Media and design do go hand in hand and we provide both. 
-                    We can start from scratch or work with what you have to improve your interaction with your current and potential clients.</p>
+               <h1>{graph_design_title}</h1>
+                   <p>{graph_design_intro}</p>
                </div>
                <img className='service-img' alt='web_development' src='./Images/c2.jpg'/>
                </div>
@@ -55,15 +56,12 @@ function HomePage ({
                <div className='service-wrap'>
                <img className='service-img' alt='web_development' src='./Images/c2.jpg'/>
                <div className='service-description'>
-               <h1>Marketing Advisory and Business Services</h1>
-                   <p>We work with startups through to established businesses to ensure you get the bang for your buck on your marketing efforts. 
-                We also provide a broad range of business services outside of marketing to support your growth. So if it's a strategy, 
-                marketing plan or pulling together a new event or launch, discuss your needs with us.</p>
+               <h1>{marketing_service_title}</h1>
+                <p>{marketing_service_intro}</p>
                </div>
                </div>
            </div>
-        </div>
-
+</div>
     )
 }
 

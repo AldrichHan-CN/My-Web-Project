@@ -1,3 +1,18 @@
+.home-container{
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .home__home-section{
     color: #f8f8ff;
     padding: 160px 0;
@@ -88,20 +103,25 @@ img {
 
 /*Service Description*/
 
-.home__service-page{
-    flex-wrap: wrap;
+.service-wrap{
     margin-top: 15px;
-    display: column;
     align-content: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
     align-items: center;
-    flex-direction: row;
     font-size: 12px;
     line-height: 40px;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #14304a;
 }
 
-.home__service-page h1{
+.service-wrap h1{
     letter-spacing: 1.4px;
     max-width: 440px;
     margin-bottom: 35px;
@@ -109,53 +129,18 @@ img {
     text-transform: uppercase;
 }
 
-.home__service-page p {
+.service-wrap p {
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 20px;
     line-height: 26px;
-    color: #14304a;
+    color: #f8f8ff;
 }
 
 .service-description{
     display:column;
 }
 
-.service-wrap{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #E8E8E8;
-}
-
-.service-wrap-mid{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #E8C239;
-}
-
-.service-wrap-mid  h1{
-    letter-spacing: 1.4px;
-    max-width: 440px;
-    margin-bottom: 35px;
-    color: #14304a;
-    text-transform: uppercase;
-}
-
-.service-wrap-mid  p {
-    font-size: 20px;
-    line-height: 26px;
-    max-width: 440px;
-    margin-bottom: 35px;
-    color: #14304a;
-}
 
 .service-img{
     max-block-size: 300px;

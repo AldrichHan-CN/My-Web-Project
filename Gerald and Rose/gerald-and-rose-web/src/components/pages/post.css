@@ -1,0 +1,43 @@
+.post-container{
+    display: flex;
+    height: 100vh;
+}
+
+
+.post-banner{
+    flex-direction: column;
+    padding: 10px 15px 10px 15px;
+    background-color: #14304a;
+    height:100vh;
+    position:relative;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-banner h1{
+    align-items: flex-start;
+    margin: 24px 0 24px 0;
+    font-size: 44px;
+    line-height: 1.1;
+    font-weight: 600;
+    color:#f8f8ff;
+}
+
+.post-banner p{
+    color: #EDD067;
+    font-size: 30px;
+    letter-spacing: 1.4px;
+}
+
+
+.please-note{
+    align-items: flex-end;
+    bottom: 0;
+    color:#f8f8ff;
+}
+
+.post_list{
+    background-color: #f8f8ff;
+}
