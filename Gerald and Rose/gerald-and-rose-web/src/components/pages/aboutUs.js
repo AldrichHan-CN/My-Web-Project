@@ -16,36 +16,38 @@ function Introduction(
             <div className='intro-Section-banner'>
             <h1>About Us</h1>
             <h3>{banner_intro_title}</h3>
-            <h4>{banner_intro}</h4>
+            <p>{banner_intro}</p>
             </div>
         </div>
 
         <div className='intro-Section'>
+        <h2>Founders</h2>
                 <div className='intro-founders-info'>
-                <h2>Founders</h2>
-                    <div className='intro-David'>
-                        <div className='intro-founder-photo'>
+
+                    <div className='intro-01'>
+
                         <img src={David_photo} alt={David_alt} className='founders_img' />
-                        <p>David</p>
-                        </div>
-                        <div classname='intro-founders-intro'>{David_intro}</div>
+
+                        <h1>David</h1>
+                        <p>{David_intro}</p>
                     </div>
-                    <div className='intro-Colan'>
-                        <div classname='intro-founders-intro'>{Colan_intro}</div>
-                        <div className='intro-founder-photo'>
+
+                    <div className='intro-01'>
+
                         <img src={Colan_photo} alt={Colan_alt} className='founders_img' />
-                        <p>Colan</p>
-                        </div>
+  
+                        <h1>Colan</h1>
+                        <p>{Colan_intro}</p>
                     </div>
                 </div>
         </div>
 
         <div className='intro-Section'>
-                <div className='intro-dude-title'><h2>Dude</h2></div>
-                <div className='intro-logo-info'>
+            <div className='logo-container'>
+                <h2>Dude</h2>
                     <img src={logo} alt={logo_alt} className='logo' />
-                    <div className='intro-logo-intro'>{logo_intro}</div>
-                </div>           
+                    <p>{logo_intro}</p>
+            </div>
         </div>
         
         <div className='intro-Section'>

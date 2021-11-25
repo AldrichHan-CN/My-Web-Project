@@ -5,7 +5,7 @@ export const homeObjOne = {
     topLine: 'The perfect solution for you.',
     headline: 'Digital Marketing for Human with Ideas',
     description: 'A Surry Hills based Digital Marketing company, Gerald and Rose proudly serves the local community and clients around the world',
-    buttonLabel: 'Call Us',
+    buttonLabel: 'Contact Us',
     img: 'Images/Copy of Color logo.png',
     alt:'business logo',
     website_development_title:'Website Development, Management and Maintenance',

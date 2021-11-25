@@ -24,7 +24,7 @@ function HomePage ({
                         <div className='top-line'>{topLine}</div>
                         <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                         <p className={lightTextDesc ? 'home__home-subtitle' : 'home__home-subtitle dark'}>{description}</p>
-                        <Link to='/contact-us'>
+                        <Link to='/contact-form'>
                             <Button buttonSize='btn--wide' buttonColor='gold'>
                                 {buttonLabel}</Button>
                         </Link>
