@@ -1,17 +1,18 @@
 import React from 'react'
 import './businessService.css'
-import {jarallax, jarallaxVideo} from 'jarrallax';
+
 
 function Services({
     bsTitle, bsSubtitle,bsBanner, bsBanneralt, 
     mkt_img,mkt_alt, mkt_description,
     con_img,con_alt,con_description,
     gd_img,gd_alt, gd_description,
-    com_img,com_alt,com_description}) 
+    com_img,com_alt,com_description})
     {
     return (
     
         <>
+        
         <div className='business-container'>
 
                 <div className='banner-bs'>

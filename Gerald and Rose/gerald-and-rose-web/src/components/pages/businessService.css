@@ -1,9 +1,8 @@
 
-/*.business-container {
-  overflow: scroll;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-}*/
+.business-container {
+  background: #14304a;
+  padding-bottom: 300px;
+}
 
 .banner-bs{
 width: 100vw;
@@ -12,15 +11,14 @@ scroll-snap-align: start;
 display: flex;
 align-items: center;
 justify-content: center;
-background-image: url(/src/components/CSSbg/pexels-1563356.jpg);
 background-attachment: fixed;
 background-size: cover;
+padding: 20px;
 }
 
 .banner-bs-container{
 display: flex;
 border-bottom: #f8f8ff 5px solid;
-background: rgba(0,0,0,0.2);
 animation: fadeInAnimation ease 2s; 
 animation-iteration-count: 1; 
 animation-fill-mode: forwards
@@ -107,7 +105,7 @@ color:#f8f8ff;
   z-index: 1;
   max-width: 400px;
   color:#fff;
-  box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+  box-shadow: 0 25px 35px rgba(0,0,0,0.1); 
   border-bottom: 6px, solid #E8C239;
 }
 
