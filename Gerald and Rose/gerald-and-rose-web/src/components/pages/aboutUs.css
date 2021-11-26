@@ -76,7 +76,7 @@
     height: 500px;
     overflow: hidden;
     margin: 20px;
-    background-color: seashell;
+    background-color: #f8f8ff;
     border-radius: 20px;
 
     display: flex;
@@ -147,6 +147,6 @@
     line-height: 30px;
     margin:20px;
     padding: 10px;
-    background-color: seashell;
+    background-color: #f8f8ff;
     border-radius: 20px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './businessService.css'
+import {jarallax, jarallaxVideo} from 'jarrallax';
 
 function Services({
     bsTitle, bsSubtitle,bsBanner, bsBanneralt, 
@@ -15,7 +16,7 @@ function Services({
 
                 <div className='banner-bs'>
                     <div className='banner-bs-container'>
-        <div className='bs-banner-logo'>
+            <div className='bs-banner-logo'>
                 <img src={bsBanner} alt={bsBanneralt} />
             </div>
             <div className='bs-banner-text'>
@@ -30,58 +31,50 @@ function Services({
                 </div>
 
                 <div className='bs-service'>
-                    <div className='bs-service-text'>
-                    <div className='bs-service-heading'>
-                        <h2>Marketing Advisory</h2>
-                    </div>
-                    <div className='bs-service-description'>
-                        <p>{mkt_description}</p>
-                    </div>
-                    </div>
-                    <div className='bs-service-img'>
+                <h2>Marketing Advisory</h2>
+                <div className='bs-service-container'>
+                <div className='bs-service-img'>
                         <img src={mkt_img} alt={mkt_alt} />
                     </div>
+                    <div className='bs-service-text'>
+                        <p>{mkt_description}</p>
+                    </div>
+                </div>
                 </div>
 
                 <div className='bs-service'>
+                <h2>Business Consultancy</h2>
+                <div className='bs-service-container'>
                 <div className='bs-service-img'>
                         <img src={con_img} alt={con_alt} />
                     </div>
                     <div className='bs-service-text'>
-                    <div className='bs-service-heading'>
-                        <h2>Business Consultancy</h2>
-                    </div>
-                    <div className='bs-service-description'>
                         <p>{con_description}</p>
                     </div>
                     </div>
                 </div>
 
                 <div className='bs-service'>
+                <h2>Graph Design</h2>
+                <div className='bs-service-container'>
                     <div className='bs-service-img'>
                         <img src={gd_img} alt={gd_alt} />
                     </div>
                     <div className='bs-service-text'>
-                    <div className='bs-service-heading'>
-                        <h2>Graph Design</h2>
-                    </div>
-                    <div className='bs-service-description'>
                         <p>{gd_description}</p>
                     </div>
-                    </div>
+                </div>
                 </div>
 
                 <div className='bs-service'>
-                    <div className='bs-service-text'>
-                    <div className='bs-service-heading'>
-                        <h2>Campaign Management</h2>
+                <h2>Campaign Management</h2>
+                <div className='bs-service-container'>
+                <div className='bs-service-img'>
+                        <img src={com_img} alt={com_alt} />
                     </div>
-                    <div className='bs-service-description'>
+                    <div className='bs-service-text'>
                         <p>{com_description}</p>
                     </div>
-                    </div>
-                    <div className='bs-service-img'>
-                        <img src={com_img} alt={com_alt} />
                     </div>
                 </div>
         </div>
