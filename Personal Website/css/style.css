@@ -1,0 +1,40 @@
+:root{
+    --header-height:3rem;
+
+    /*Main Color -- Blue*/
+
+    --hue-color:230;
+
+    /*HSL Color Mode*/
+
+    --first-color:hsl(var(var(--hue-color),69% ,61% ));
+    --first-color-secondary: hsl(var(var(--hue-color),69% ,61% ));
+    --first-color-secondary-alt: hsl(var(var(--hue-color),57% ,53% ));
+    --first-color-lighter: hsl(var(var(--hue-color),92% ,85% ));
+    --title-color: hsl(var(var(--hue-color),8% ,15% ));
+    --text-color: hsl(var(var(--hue-color),8% ,45% ));
+    --text-color-light: hsl(var(var(--hue-color),8% ,65% ));
+    --input-color: hsl(var(var(--hue-color),70% ,96% ));
+    --body-color: hsl(var(var(--hue-color),60% ,99% ));
+    --container-color: white;
+
+    /*Body Font*/
+
+    --main-font: 'Press Start 2P', cursive;
+
+    /*Font-size*/
+
+    --H-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --regular-font-size: 1rem;
+    --small-font-size: 0.8rem;
+    --reference-font-size: 0.7rem;
+
+    /*Font-Weight*/
+
+    --font-m: 500;
+    --font-semi-bold: 600;
+
+}
