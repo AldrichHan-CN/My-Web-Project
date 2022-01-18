@@ -8,11 +8,9 @@
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="css/style.css">
 
-    <!--Main JavaScript-->
-    <script src="js/korobeiniki.js"></script>
-
     <!--Awesome Icon Link-->
     <script src="https://kit.fontawesome.com/e9dc3cb731.js" crossorigin="anonymous"></script>
+
 
     <title>Korobeiniki's Personal Place</title>
 </head>
@@ -29,37 +27,37 @@
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link">
-                            <i class="fas fa-home nav__icon"></i> Home
+                            <i class="fas fa-heart nav__icon"></i> Home
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="far fa-question-circle nav__icon"></i> About Me
+                            <i class="fas fa-gamepad nav__icon"></i> About Me
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="fas fa-book nav__icon"></i> Skills
+                            <i class="fas fa-book-dead nav__icon"></i> Skills
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#service" class="nav__link">
-                            <i class="fas fa-briefcase nav__icon"></i> Services
+                            <i class="fas fa-chess-bishop nav__icon"></i> Services
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#works" class="nav__link">
-                            <i class="fab fa-delicious nav__icon"></i> Works..
+                            <i class="fas fa-trophy nav__icon"></i> Works..
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="fas fa-envelope-open-text nav__icon"></i> Message Me!
+                            <i class="fab fa-twitch nav__icon"></i> Message Me!
                         </a>
                     </li>
 
@@ -78,6 +76,104 @@
             </div>
         </nav>
     </header>
-    
+    <!----------------------------------Main--------------------------------------->
+    <main class="main">
+    <!-------Hero Section------>
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                            <!--linkedIn-->
+                        <a href="https://www.linkedin.com/in/huaiqinghan-7015/" target="_blank" class="home__social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                            <!--GitHub-->
+                        <a href="https://github.com/AldrichHan-CN/AldrichHan-CN" target="_blank" class="home__social-icon">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                            <!--FaceBook-->
+                        <a href="https://www.facebook.com/HuaiqingHan2022" target="_blank" class="home__social-icon">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="home__img">
+                        <svg class='home__blob' viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type='alpha'>
+                                    <path d="M53.6,-65.5C64.8,-54.5,66,-33.2,67.8,-13.4C69.6,6.5,72.1,24.7,64.9,37.8C57.7,50.8,41,58.6,23,66.8C5,75,-14.3,83.5,-32.4,80.6C-50.6,77.7,-67.7,63.3,-74.2,45.8C-80.8,28.4,-76.8,7.8,-71.4,-10.8C-66,-29.4,-59.2,-45.9,-47.1,-56.7C-35,-67.5,-17.5,-72.5,1.9,-74.8C21.2,-77,42.4,-76.4,53.6,-65.5Z" transform="translate(100 100)" />
+                                </mask>
+
+                                <g mask='url(#mask0)'>
+                                    <path  d="M53.6,-65.5C64.8,-54.5,66,-33.2,67.8,-13.4C69.6,6.5,72.1,24.7,64.9,37.8C57.7,50.8,41,58.6,23,66.8C5,75,-14.3,83.5,-32.4,80.6C-50.6,77.7,-67.7,63.3,-74.2,45.8C-80.8,28.4,-76.8,7.8,-71.4,-10.8C-66,-29.4,-59.2,-45.9,-47.1,-56.7C-35,-67.5,-17.5,-72.5,1.9,-74.8C21.2,-77,42.4,-76.4,53.6,-65.5Z" transform="translate(100 100)" />
+                                    <image class='home__blob-img' x='12' y='18' xlink:href='img/Profile.jpg'/>
+                                </g>
+                          </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi! This is Korobeiniki!</h1>
+                        <h3 class="home__subtitle">Front-End Developer & Digital Marketer</h3>
+                        <p class="home__description">
+                            Journalist background Geek. 
+                            Knowledge in Web Development, Graphic Design, Web Development and SEO.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me!
+                            <i class="far fa-comments button__icon"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="fab fa-watchman-monitoring home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> View More </span>
+                        <i class="fas fa-arrow-circle-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------About Me Section--------------------------->
+
+        <section class="about section" id="about">
+
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="img/about me.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Experienced Journalist, especially good at marketing project management and stakeholder communication.
+                        Able to compose the digital content on various platforms. Still learning any knowledge I can get about Web Design.</p>
+                
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">02+</span>
+                        <span class="about__info-name">Years<br>Experience</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">04</span>
+                        <span class="about__info-name"> Completed <br> Projects </span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">03</span>
+                        <span class="about__info-name">Ongoing <br> Projects</span>
+                    </div>
+                </div>
+                    <div class="about__buttons">
+                        <a download='' href="assets/Han's Resume -- Version 3.pdf" class="button button--flex">
+                            Download My CV<i class="fas fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <!--Personal Function -- JavaScript-->
+        <script src="js/korobeiniki.js"></script>
 </body>
 </html>
